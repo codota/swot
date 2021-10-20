@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -27,31 +29,14 @@ jobs:
 
       - name: Install
         run: yarn --frozen-lockfile
+        
       - name: Build
         run: yarn build
 
       - name: Run yarn open pr command
         run: yarn open:pr ${{ github.event.inputs.domain }} "${{ github.event.inputs.title }}"
-
-      - name: Create Pull Request
-        id: cpr
-        uses: codota/create-pull-request@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit changes
+        uses: tabnine/git-auto-commit-action@v4
         with:
-          commit-message: Add ${{ github.event.inputs.domain }}
-          branch: add-new-domain
-          delete-branch: true
-          title: "[Bot] Add ${{ github.event.inputs.domain }}"
-          labels: |
-            domains
-            automated pr
-          assignees: maya-tabnine
-          team-reviewers: |
-            owners
-            maintainers
-
-      - name: Check outputs
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+          commit_message: [Bot] Add ${{ github.event.inputs.domain }}
