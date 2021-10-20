@@ -39,4 +39,4 @@ jobs:
       - name: Commit Changes
         uses: tabnine/git-auto-commit-action@v4
         with:
-          commit_message: [Bot] Add ${{ github.event.inputs.domain }}
+          commit_message: Add ${{ github.event.inputs.domain }}
