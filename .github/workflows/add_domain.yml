@@ -35,8 +35,8 @@ jobs:
 
       - name: Run yarn open pr command
         run: yarn open:pr ${{ github.event.inputs.domain }} "${{ github.event.inputs.title }}"
-      
-      - name: Commit changes
+
+      - name: Commit Changes
         uses: tabnine/git-auto-commit-action@v4
         with:
           commit_message: [Bot] Add ${{ github.event.inputs.domain }}
