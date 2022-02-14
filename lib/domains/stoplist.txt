@@ -318,7 +318,6 @@ sss.edu.bi
 sstu-edu.ru
 st.btbu.edu.cn
 st.buh.edu.vn
-st.cupk.edu.cn
 std.uestc.edu.cn
 stlcc.edu
 stmail.tanenbaumchat.org
@@ -496,11 +495,9 @@ cihanuniversity.org
 stu.hit.edu.cn
 mails.tsinghua.edu.cn
 deltacollege.edu
-gavilan.edu
 mgccc.edu
 my.jcu.edu.au
 masu.edu.cn
-utexas.edu
 unijos.edu.ng
 cczu.edu.cn
 sdust.edu.cn
