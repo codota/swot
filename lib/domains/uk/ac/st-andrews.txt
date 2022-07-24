@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 University of St Andrews, Scotland, UK
+=======
+University of St Andrews
+>>>>>>> upstream/master

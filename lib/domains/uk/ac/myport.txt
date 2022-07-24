@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 University of Portsmouth
+=======
+University of Portsmouth
+>>>>>>> upstream/master

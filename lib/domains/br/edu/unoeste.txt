@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Unoeste - Presidente Prudente - SP - Brazil
+=======
+Universidade do Oeste Paulista
+>>>>>>> upstream/master

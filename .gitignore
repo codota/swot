@@ -3,5 +3,10 @@ Gemfile.lock
 *.gem
 .bundle
 .idea
+<<<<<<< HEAD
 node_modules/
 dist/
+=======
+.gradle
+build
+>>>>>>> upstream/master

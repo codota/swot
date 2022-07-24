@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Maharishi Markandeshwar Deemed to be University
+=======
+Maharishi Markandeshwar (Deemed to be University)
+>>>>>>> upstream/master

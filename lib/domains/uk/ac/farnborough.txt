@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Farnborough 6th Form College
+=======
+The Sixth Form College Farnborough
+>>>>>>> upstream/master

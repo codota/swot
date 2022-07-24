@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Universitas NU Surabaya
+=======
+Universitas Nahdlatul Ulama Surabaya
+Nahdlatul Ulama Surabaya University
+>>>>>>> upstream/master

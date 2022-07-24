@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 EDUK Qualifications 
+=======
+﻿EDUK Qualifications 
+>>>>>>> upstream/master

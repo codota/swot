@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Universidad Autónoma de Nuevo LeónPedro de Alba S/N
+=======
+Universidad Autonoma de Nuevo Leon 
+>>>>>>> upstream/master
